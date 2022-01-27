@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <div class="container padding-x min-vh-100">
+    <section id="home" class="container padding-x min-vh-100">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#home"><img src="images/portfolio-logo.png" width="30" height="35" alt="">
@@ -67,9 +67,14 @@
                     <img width="500" class="img-fluid" src="images/home-image.png" alt="">
                 </div>
             </div>
+            <a href="#about">
+                <div class="scrolldown">
+                    <span></span>
 
+                </div>
+            </a>
         </section>
-    </div>
+    </section>
 
     <!-- About -->
     <section class="" id="about">
@@ -205,7 +210,8 @@
     <section class="" id="projects">
         <div class="padding-y padding-x">
             <h1 class="text-center project-heading mb-4">Projects</h1>
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-touch="true">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-touch="true"
+                data-interval="false">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -316,7 +322,7 @@
 
 
     <!-- Footer -->
-    <footer id="footer">
+    <!-- <footer id="footer">
         <div class="line-padding">
             <div class="line"></div>
         </div>
@@ -366,6 +372,57 @@
             </div>
         </div>
     </footer>
+ -->
+
+    <footer id="footer">
+        <div class="line-padding">
+            <div class="line"></div>
+        </div>
+        <div class="container padding-x padding-y">
+            <div class="row">
+
+                <div class="col-lg-6 get-in-touch">
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid" width="30" height="35" src="images/portfolio-logo.png" alt="">
+                        <h3 class="footer-heading">Get in touch</h3>
+                    </div>
+                    <div class="d-flex">
+                        <p class="footer-paragraph">If you have a project in mind or are
+                            simply interested in finding out more, please don't hesitate to contact me via email below.
+                        </p>
+                        <img class="img-fluid rounded footer-image d-none d-lg-block fill" width="650"
+                            src="images/footer-image.jpg" alt="">
+                    </div>
+                    <form action="mailto:andreilimuco@gmail.com" method="post" enctype="text/plain">
+                        <button class="btn btn-primary btn-lg rounded btn-block footer-button mb-3">Send me an
+                            email</button>
+                    </form>
+
+                </div>
+                <div class="col-lg-6 d-md-flex justify-content-end footer-link">
+                    <div class="">
+                        <div class="text-md-right text-center">
+                            <h3 class="mb-2 pb-1 footer-about"><a href="#home">HOME</a></h3>
+                            <h3 class="mb-2 pb-1 footer-about"><a href="#about">ABOUT</a></h3>
+                            <h3 class="mb-2 pb-1 footer-projects"><a href="#projects">PROJECTS</a></h3>
+                            <h3 class="mb-2 pb-1 footer-contact"><a href="#contact">CONTACT</a></h3>
+                        </div>
+                        <div class="pt-2">
+                            <a href="https://github.com/" target="_blank"><i class="fab fa-github fa-2x px-1"></i></a>
+                            <a href="https://twitter.com/la_limuco" target="_blank"><i
+                                    class="fab fa-twitter fa-2x px-1"></i></a>
+                            <a href="https://instagram.com/la_limuco" target="_blank"><i
+                                    class="fab fa-instagram fa-2x px-1"></i></a>
+                            <a href="https://www.linkedin.com/in/andrei-limuco-5058b1229/" target="_blank"><i
+                                    class="fab fa-linkedin fa-2x px-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 
 
     </div>

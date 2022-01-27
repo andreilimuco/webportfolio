@@ -133,7 +133,6 @@ nav {
 
 #home {
 	background-color: black;
-	padding: 1% 20% 0;
 }
 
 #about {
@@ -394,6 +393,7 @@ nav {
 
 .carousel-images {
 	border-radius: 25px;
+	max-width: 100%;
 }
 
 /* .carousel-control-prev {
@@ -441,7 +441,6 @@ footer .line {
 }
 
 .footer-paragraph {
-	margin-right: 20px;
 	line-height: 1.5;
 	font-size: 1.3rem;
 	font-weight: 500;
@@ -452,9 +451,9 @@ footer .line {
 	object-fit: cover;
 }
 
-.get-in-touch {
+/* .get-in-touch {
 	padding-right: 40px;
-}
+} */
 
 .footer-text {
 	font-size: 1.4rem;
@@ -548,11 +547,26 @@ footer .line {
 		font-size: 12px;
 		margin-bottom: 0;
 	}
+
+	.contact-button {
+		font-size: 14px;
+	}
+
+	.footer-link {
+		text-align: center;
+	}
+
+	.w-50 {
+		width: 100% !important;
+	}
 }
-@media (max-width: 1028px) {
-	/* if the website is 1028 pixels or less then we will change the title id alignment to center and rotate our image back to normal*/
+@media (max-width: 1024px) {
 	.title {
 		text-align: center;
+	}
+
+	.scrolldown {
+		display: none;
 	}
 }
 
@@ -574,4 +588,55 @@ footer .line {
 
 .carousel-item {
 	margin-bottom: 50px;
+}
+
+.fill {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.fill img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.footer-about,
+.footer-skills,
+.footer-projects,
+.footer-contact {
+	font-size: 1.4rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+}
+
+.footer-contact {
+	color: #f64d28;
+}
+
+.carousel-inner > .item > img {
+	width: 640px;
+	height: 360px;
+}
+
+.scrolldown {
+	position: absolute;
+	bottom: 3%;
+	right: 5%;
+	width: 40px;
+	height: 40px;
+	transform: translateY(-80px) translateX(-50%) rotate(45deg);
+}
+
+.scrolldown span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-bottom: 4px solid #f64d28;
+	border-right: 4px solid #f64d28;
+	animation: animate 1.5s linear;
 }
