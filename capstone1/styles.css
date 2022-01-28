@@ -519,7 +519,7 @@ footer .line {
 	}
 
 	.about-paragraph {
-		font-size: 12px;
+		font-size: 14px;
 		padding-left: 0;
 	}
 
@@ -562,6 +562,18 @@ footer .line {
 }
 @media (max-width: 1024px) {
 	.title {
+		text-align: center;
+	}
+
+	.big-heading {
+		text-align: center;
+	}
+
+	.about-heading {
+		text-align: center;
+	}
+
+	.about-paragraph {
 		text-align: center;
 	}
 
@@ -615,10 +627,10 @@ footer .line {
 	color: #f64d28;
 }
 
-.carousel-inner > .item > img {
+/* .carousel-inner > .item > img {
 	width: 640px;
 	height: 360px;
-}
+} */
 
 .scrolldown {
 	position: absolute;
@@ -638,5 +650,4 @@ footer .line {
 	height: 100%;
 	border-bottom: 4px solid #f64d28;
 	border-right: 4px solid #f64d28;
-	animation: animate 1.5s linear;
 }
