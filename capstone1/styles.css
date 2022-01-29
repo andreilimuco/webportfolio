@@ -540,13 +540,19 @@ footer .line {
 		text-align: center;
 	}
 
+	
+}
+
+@media (max-width: 768px) {
 	.w-50 {
 		width: 100% !important;
 	}
 }
+
 @media (max-width: 1024px) {
 	.title {
 		text-align: center;
+		padding-top: 50px;
 	}
 
 	.big-heading {
@@ -561,12 +567,13 @@ footer .line {
 		text-align: center;
 	}
 
-	.scrolldown {
-		display: none;
+	nav {
+		margin-bottom: 0;
 	}
-
 	
 }
+
+
 
 @media only screen and (min-width: 1024px) and (max-width: 2560px) {
 	nav ul li a:after {
@@ -636,6 +643,7 @@ footer .line {
 	height: 360px;
 } */
 
+/* 
 .scrolldown {
 	position: absolute;
 	bottom: 3%;
@@ -654,4 +662,4 @@ footer .line {
 	height: 100%;
 	border-bottom: 4px solid #f64d28;
 	border-right: 4px solid #f64d28;
-}
+} */
