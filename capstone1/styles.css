@@ -32,22 +32,6 @@ nav ul li a {
 	position: relative;
 }
 
-nav ul li a:after {
-	content: "";
-	width: 0%;
-	height: 3px;
-	position: absolute;
-	bottom: -5px;
-	left: 50%;
-	transform: translateX(-50%);
-	background: #f64d28;
-	transition: width 0.3s;
-}
-
-nav ul li a:hover::after {
-	width: 50%;
-}
-
 p {
 	line-height: 2;
 }
@@ -579,6 +563,26 @@ footer .line {
 
 	.scrolldown {
 		display: none;
+	}
+
+	
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+	nav ul li a:after {
+		content: "";
+		width: 0%;
+		height: 3px;
+		position: absolute;
+		bottom: -5px;
+		left: 50%;
+		transform: translateX(-50%);
+		background: #f64d28;
+		transition: width 0.3s;
+	}
+	
+	nav ul li a:hover::after {
+		width: 50%;
 	}
 }
 
