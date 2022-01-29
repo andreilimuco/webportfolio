@@ -435,10 +435,6 @@ footer .line {
 	object-fit: cover;
 }
 
-/* .get-in-touch {
-	padding-right: 40px;
-} */
-
 .footer-text {
 	font-size: 1.4rem;
 	font-family: "Open Sans", sans-serif;
@@ -539,20 +535,21 @@ footer .line {
 	.footer-link {
 		text-align: center;
 	}
-
-	
 }
 
 @media (max-width: 768px) {
 	.w-50 {
 		width: 100% !important;
 	}
+
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		display: none;
+	}
 }
 
 @media (max-width: 1024px) {
 	.title {
 		text-align: center;
-		padding-top: 50px;
 	}
 
 	.big-heading {
@@ -573,7 +570,11 @@ footer .line {
 	
 }
 
-
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+	.title {
+		padding-top: 50px;
+	}
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 2560px) {
 	nav ul li a:after {
