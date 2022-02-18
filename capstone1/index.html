@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <section id="home" class="container min-vh-100">
+    <section id="home" class="container">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#home"><img src="images/portfolio-logo.png" width="30" height="40" alt="">
@@ -65,32 +65,26 @@
         <section id="" class="">
             <!-- Homepage -->
             <div class="row">
-                <div class="col-lg-6 title mt-4 mb-4">
+                <div class="col-lg-6 title mt-4 mb-5">
                     <h1 class="big-heading mb-2">Hi, I'm Andrei</h1>
                     <p class="subtitle mb-4">A <span>software engineer</span> based in Cavite, Philippines.</p>
                     <a href="cv/Lemuel-Andrei-Limuco-CV.pdf" download><button type="button"
                             class="title-button btn btn-lg rounded-pill">Download CV</button></a>
                 </div>
                 <div class="col-lg-6 d-md-flex justify-content-center title-image ">
-                    <img width="500" class="img-fluid home-image" src="images/home-image.png" alt="">
+                    <img width="500" class="img-fluid home-image d-none d-sm-block" src="images/home-image.png" alt="">
                 </div>
             </div>
-            <a href="#about">
-                <div class="scrolldown">
-                    <span></span>
-
-                </div>
-            </a>
         </section>
     </section>
 
-    <section class="about-padding container-fluid theme-dark-secondary" id="about">
+    <section class="about-padding theme-dark-secondary" id="about">
 
         <div class="container padding-t padding-b text-center pt-5">
             <h1 class="about-text">About Me</h1>
             <h1 class="big-heading text">Full Stack Web Developer</h1>
             <div class="">
-                <p class="about-paragraph">I am a full stack web developer from Philippines. I have a
+                <p class="about-paragraph text-secondary">I am a full stack web developer from Philippines. I have a
                     passion for
                     creating
                     seamless, beautiful
@@ -110,21 +104,27 @@
                 </div> -->
             <section id="skills">
                 <!-- <h1 class="skills-heading">Skills</h1> -->
-                <div class="row">
-                    <div class="skill-box col-lg-4">
-                        <p><i class="icon fas fa-code fa-4x"></i></p>
-                        <h4>Frontend developer</h4>
-                        <p class="icon-text">I build responsive websites.</p>
+                <div class="row mt-5 pb-5">
+                    <div class="skill-box1 col-md-6 col-lg-4 pt-2 pb-2">
+                        <div class="skill-card1">
+                            <p><i class="icon fas fa-code fa-4x"></i></p>
+                            <h4>Frontend developer</h4>
+                            <p class="icon-text">I build responsive websites.</p>
+                        </div>
                     </div>
-                    <div class="skill-box col-lg-4">
-                        <p><i class="icon fas fa-server fa-4x"></i></p>
-                        <h4>Backend developer</h4>
-                        <p class="icon-text">I create and maintain web applications.</p>
+                    <div class="skill-box2 col-md-6 col-lg-4 pt-2 pb-2">
+                        <div class="skill-card2">
+                            <p><i class="icon fas fa-server fa-4x"></i></p>
+                            <h4>Backend developer</h4>
+                            <p class="icon-text">I create and maintain web apps.</p>
+                        </div>
                     </div>
-                    <div class="skill-box col-lg-4">
-                        <p><i class="icon fas fa-pencil-ruler fa-4x"></i></p>
-                        <h4>Web Designer</h4>
-                        <p class="icon-text">I love everything about design.</p>
+                    <div class="skill-box3 col-md-6 col-lg-4 pt-2 pb-2">
+                        <div class="skill-card3">
+                            <p><i class="icon fas fa-pencil-ruler fa-4x"></i></p>
+                            <h4>Web Designer</h4>
+                            <p class="icon-text">I design and improve websites.</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -134,10 +134,10 @@
     <!-- Projects -->
     <section id="projects">
         <h1 class=" text-center capstone-projects padding-t mb-3 pt-5">Capstone Projects</h1>
-        <div class="container-fluid">
+        <div class="container">
 
-            <div class="row text-center">
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+            <div class="row text-center mb-5">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/capstone1.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/slide1.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/slide4.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -200,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/slide4.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/slide5.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -242,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/slide6.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -264,7 +264,7 @@
                     </div>
 
                 </div>
-                <div class="projects-column col-xl-4 col-md-6 p-3">
+                <div class="projects-column col-md-6 p-3">
                     <div class="card">
                         <img src="images/slide7.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -289,7 +289,7 @@
             </div>
 
             <section id="tools">
-                <div class="text-center text-secondary mt-5 pb-5">
+                <div class="text-center text-secondary padding-b mt-5 pb-5">
                     <h5 class="mb-3">TECHNOLOGIES / PROGRAMMING TOOLS USED:</h5>
                     <div class="p-3 d-inline-block">
                         <i class="fab fa-html5 fa-3x"></i>
@@ -342,7 +342,7 @@
             <h1 class="text-center contact-heading padding-t pt-5 ">Contact Me</h1>
             <h5 class="text-center contact-text">Get in touch</h5>
             <div class="row padding-b pb-3">
-                <div class="col-xl-5 pt-4 order-2 order-xl-1">
+                <div class="col-lg-5 pt-4 order-2 order-lg-1">
                     <div class="mb-3">
                         <i class="fas fa-phone-alt fa-2x d-inline-block align-top mt-2 mr-3"></i>
                         <div class="d-inline-block">
@@ -366,15 +366,15 @@
                     </div>
 
                 </div>
-                <div class="contact-form col-xl-7 order-1">
+                <div class="contact-form col-lg-7 order-1">
 
                     <form action="mailto:andreilimuco@gmail.com" method="post" enctype="text/plain">
                         <div class="row">
-                            <div class="col-lg-6 form-group">
+                            <div class="col-md-6 form-group">
                                 <label for="firstName"></label>
                                 <input type="text" class="form-control form-control-lg input" placeholder="First name">
                             </div>
-                            <div class="col-lg-6 form-group">
+                            <div class="col-md-6 form-group">
                                 <label for="lastName"></label>
                                 <input type="text" class="form-control form-control-lg input" placeholder="Last name">
                             </div>
