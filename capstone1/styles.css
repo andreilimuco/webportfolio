@@ -117,8 +117,8 @@ a:hover {
 
 #contact {
 	/* background-color: black; */
-	background: linear-gradient(154.59deg, #14acc7 15.34%, #925dd6 88.74%);
-	/* background: linear-gradient(154.59deg, #ec3661 15.34%, #3a1e6c 88.74%); */
+	/* background: linear-gradient(154.59deg, #14acc7 15.34%, #925dd6 88.74%); */
+	background: linear-gradient(154.59deg, #ec3661 15.34%, #3a1e6c 88.74%);
 }
 
 #footer {
@@ -440,12 +440,16 @@ footer .line {
 }
 
 #projects .card {
-	background-color: #0b0c16;
+	background-color: #000;
 	/* box-shadow: rgb(80 78 78 / 50%) 3px 3px 20px; */
 	border-radius: 25px;
 	/* border-color: #161616; */
 	border-color: #23272a;
 	/* border-width: 2px; */
+}
+
+.card-body {
+	background-color: #000;
 }
 
 .card-img-top {
@@ -456,14 +460,14 @@ footer .line {
 	background-color: #0b0c16;
 }
 
-.text {
-	background: linear-gradient(90deg, #fc00ff, #00dbde);
-	/* background: rgb(118, 39, 254);
+.gradient-text {
+	/* background: linear-gradient(90deg, #fc00ff, #00dbde); */
+	background: rgb(118, 39, 254);
 	background: linear-gradient(
 		90deg,
 		rgba(118, 39, 254, 1) 15%,
 		rgba(255, 63, 108, 1) 85%
-	); */
+	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -500,39 +504,20 @@ footer .line {
 .project-button {
 	/* background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4); */
 
-	background: linear-gradient(90deg, #ac37fe, #05d7d9, #ffeb3b, #03a9f4);
+	/* background: linear-gradient(90deg, #ac37fe, #05d7d9, #ffeb3b, #03a9f4); */
 
-	background-size: 400%;
-	width: 100%;
+	background-image: -webkit-linear-gradient(left, #f4633a, #c800a1);
+	background-image: linear-gradient(90deg, #f4633a, #c800a1);
+
 	color: white;
 	border: none;
-	display: block;
-	margin: 0 auto;
-}
-
-.project-button:before {
-	content: "";
-	position: absolute;
-	background: inherit;
-	top: -5x;
-	right: -5x;
-	bottom: -5x;
-	left: -5x;
 	border-radius: 50px;
-	filter: blur(20px);
-	opacity: 0;
-	transition: opacity 0.5s;
-}
-
-.project-button:hover:before {
-	opacity: 1;
-	z-index: -1;
-}
-
-.project-button:hover {
-	z-index: 1;
-	animation: glow 8s linear infinite;
-	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75px;
+	height: 75px;
+	font-size: 30px;
 }
 
 #coding-projects .container-fluid {
@@ -571,7 +556,7 @@ footer .line {
 .card:hover {
 	/* cursor: pointer; */
 	transform: scale(1.03);
-	/* transition: all 1s ease; */
+	transition: all 1s ease;
 	box-shadow: rgb(80 78 78 / 50%) 0 0 20px;
 }
 
@@ -655,11 +640,8 @@ footer .line {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	.nav-link {
-		font-size: 16px;
-	}
 	.big-heading {
-		font-size: 3rem;
+		font-size: 44px;
 	}
 	.subtitle {
 		font-size: 1.125rem;
@@ -671,7 +653,7 @@ footer .line {
 		font-size: 16px;
 	}
 	#about .fa-4x {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	#about h4 {
 		font-size: 16px;
@@ -756,6 +738,6 @@ footer .line {
 	}
 
 	nav ul li a:hover::after {
-		width: 79%;
+		width: 77%;
 	}
 }
