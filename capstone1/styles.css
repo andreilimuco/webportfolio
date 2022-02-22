@@ -467,6 +467,17 @@ a:hover {
 	-webkit-text-fill-color: transparent;
 }
 
+.gradient-text-secondary {
+	background: rgb(118, 39, 254);
+	background: linear-gradient(
+		90deg,
+		rgba(118, 39, 254, 1) 15%,
+		rgba(255, 63, 108, 1) 85%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .capstone-projects {
 	/* background: linear-gradient(
 		330deg,
@@ -512,8 +523,8 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 64px;
-	height: 64px;
+	width: 60px;
+	height: 60px;
 	font-size: 40px;
 }
 
@@ -693,9 +704,9 @@ a:hover {
 	}
 
 	#projects .project-button {
-		width: 40px;
+		/* width: 40px;
 		height: 40px;
-		font-size: 25px;
+		font-size: 25px; */
 	}
 
 	#home .title-button {
