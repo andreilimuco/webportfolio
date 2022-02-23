@@ -114,7 +114,22 @@ a:hover {
 #contact {
 	/* background-color: black; */
 
+	/* background: rgb(150, 134, 244); */
+	/* background: linear-gradient(
+		180deg,
+		rgba(150, 134, 244, 1) 0%,
+		rgba(223, 134, 244, 1) 100%
+	); */
+
+	/* background: rgb(82, 136, 240);
+	background: linear-gradient(
+		180deg,
+		rgba(82, 136, 240, 1) 0%,
+		rgba(99, 126, 255, 1) 100%
+	); */
+
 	background: linear-gradient(154.59deg, #14acc7 15.34%, #925dd6 88.74%);
+
 	/* background: linear-gradient(154.59deg, #ec3661 15.34%, #3a1e6c 88.74%); */
 }
 
@@ -161,6 +176,7 @@ a:hover {
 	background-size: 400%;
 	color: white;
 	width: 250px;
+	height: 60px;
 }
 
 .title-button:before {
@@ -512,7 +528,7 @@ a:hover {
 
 	/* background: linear-gradient(90deg, #ac37fe, #05d7d9, #ffeb3b, #03a9f4); */
 
-	background: linear-gradient(90deg, #ab00ff, #00dbde);
+	background: linear-gradient(90deg, #ae29ff, #00dbde);
 
 	/* background-image: -webkit-linear-gradient(left, #f4633a, #c800a1); */
 	/* background-image: linear-gradient(90deg, #f4633a, #c800a1); */
@@ -589,9 +605,6 @@ a:hover {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	.title-button {
-		height: 60px;
-	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -712,7 +725,7 @@ a:hover {
 	#home .title-button {
 		width: 100%;
 		font-size: 16px;
-		height: 45px;
+		height: 47px;
 	}
 
 	#projects h5 {
