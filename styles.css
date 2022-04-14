@@ -7,7 +7,8 @@ body {
         90deg
         , #FC466B 0%, #3F5EFB 100%);  */
 	color: white;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
+	font-family: "Roboto", sans-serif;
 	background-color: #000;
 }
 
@@ -342,6 +343,10 @@ a:hover {
 
 .carousel-images {
 	border-radius: 25px;
+}
+
+.card {
+	min-height: 100%;
 }
 
 /* Contact */
@@ -692,7 +697,7 @@ a:hover {
 	.about-paragraph {
 		font-size: 16px;
 	}
-	#about .fa-4x {
+	#about .fa-3x {
 		font-size: 40px;
 	}
 	#about h4 {
